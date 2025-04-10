@@ -1,5 +1,5 @@
 import React from 'react'
-import Workflow from './assets/Workflow.png'
+import Workflow from './assets/WorkFlow.png'
 
 function About() {
   return (
