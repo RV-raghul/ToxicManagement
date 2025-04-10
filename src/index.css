@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+*{
+    user-select: none;
+    font-family: "Roboto Slab", serif;
+}
+
+
+.be-vietnam-pro-medium {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+  .bg {
+    width: 100vw;
+    height: 90vh;
+    background-image: url('../src/components/assets/BackgroundImage2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+  .bg2 {
+    width: 100vw;
+    height: 90vh;
+    background-image: url('../src/components/assets/BackGroundImage3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .bg3 {
+    width: 100vw;
+    height: 90vh;
+    background-image: url('../src/components/assets/BackgroundImage4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
