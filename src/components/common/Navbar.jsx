@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Logo from '../assets/TRILogo.jpg'
 
 function Navbar() {
 
@@ -36,7 +37,7 @@ function Navbar() {
       <div className='w-[100vw] h-full rounded-lg bg-[#41c2ca] flex text-2xl gap-8 justify-evenly items-center'>
         <div className='flex gap-5 w-[40vw] justify-start ml-10'>
           <div>
-            <img src="src\components\assets\TRILogo.jpg" alt="" className=' w-20 h-15' />
+            <img src={Logo} alt="" className=' w-20 h-15' />
           </div>
           <div>
             <div className='text-white text-2xl font-bold'>TRI</div>
