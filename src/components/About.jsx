@@ -1,4 +1,5 @@
 import React from 'react'
+import Workflow from './assets/Workflow.png'
 
 function About() {
   return (
@@ -55,7 +56,7 @@ function About() {
                                 </ul>
                             </div>
                             <div className='flex'>
-                                <img className='w-[35vw] h-[25vw]' src="src\components\assets\WorkFlow.png" alt="" />
+                                <img className='w-[35vw] h-[25vw]' src={Workflow} alt="" />
                             </div>
                         </div>
                     </div>

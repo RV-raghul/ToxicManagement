@@ -1,5 +1,9 @@
 import React from 'react'
 import AnimateOnScroll from './common/AnimateOnScroll'
+import Disposal from './assets/Disposal.png'
+import Matrix from './assets/Matrix.png'
+import Recycle from './assets/Recycle.png'
+import TrendLine from './assets/TrendLine.png'
 
 function Analysis() {
   return (
@@ -26,7 +30,7 @@ function Analysis() {
                 </ul>
             </div>
             <div className=' mt-4 flex justify-center items-center'>
-              <img className='w-[80vw] h-[50vh]' src="src\components\assets\Disposal.png" alt="" />  
+              <img className='w-[80vw] h-[50vh]' src={Disposal} alt="" />  
             </div>
         </div>
         </AnimateOnScroll>
@@ -47,7 +51,7 @@ function Analysis() {
                 </ul>
             </div>
             <div className=' mt-4 flex justify-center items-center'>
-              <img className='w-[80vw] h-[60vh]' src="src\components\assets\Matrix.png" alt="" />  
+              <img className='w-[80vw] h-[60vh]' src={Matrix} alt="" />  
             </div>
         </div>
         </AnimateOnScroll>
@@ -69,7 +73,7 @@ function Analysis() {
                 </ul>
             </div>
             <div className=' mt-4 flex justify-center items-center'>
-              <img className='w-[50vw] h-[60vh]' src="src\components\assets\Recycle.png" alt="" />  
+              <img className='w-[50vw] h-[60vh]' src={Recycle} alt="" />  
             </div>
         </div>
         </AnimateOnScroll>
@@ -92,7 +96,7 @@ function Analysis() {
                 </ul>
             </div>
             <div className=' mt-4 flex justify-center items-center'>
-              <img className='w-[80vw] h-[50vh]' src="src\components\assets\TrendLine.png" alt="" />  
+              <img className='w-[80vw] h-[50vh]' src={TrendLine} alt="" />  
             </div>
         </div>
         </AnimateOnScroll>

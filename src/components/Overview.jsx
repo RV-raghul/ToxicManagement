@@ -1,5 +1,9 @@
 import React from 'react'
 import AnimateOnScroll from './common/AnimateOnScroll'
+import Chemicals from './assets/Chemicals.png'
+import Facilities from './assets/Facilities.png'
+import States from './assets/States.png'
+import Frequency from './assets/Frequency.png'
 
 function Overview() {
   return (
@@ -40,7 +44,7 @@ function Overview() {
                </div>
               </div>
               <div className='w-[50vw] flex justify-center ml-2'>
-                <img src="src\components\assets\Chemicals.png" className=' w-[50vw] h-100'/>
+                <img src={Chemicals} className=' w-[50vw] h-100'/>
               </div>
             </div>
             </AnimateOnScroll>
@@ -48,7 +52,7 @@ function Overview() {
           <AnimateOnScroll>
           <div className='flex pt-5'>
               <div className='w-[50vw] flex justify-center'>
-                <img src="src\components\assets\Facilities.png" className=' w-300 h-100'/>
+                <img src={Facilities} className=' w-300 h-100'/>
               </div>
               <div className='w-[50vw] ml-2'>
               <h1 className='text-lg font-extrabold underline'>Top Facilities by Total Waste Released</h1>
@@ -95,14 +99,14 @@ function Overview() {
                </div>
               </div>
               <div className='w-[50vw] flex justify-center ml-2'>
-                <img src="src\components\assets\States.png" className=' w-[50vw] h-100'/>
+                <img src={States} className=' w-[50vw] h-100'/>
               </div>
             </div>
             </AnimateOnScroll>
             <AnimateOnScroll>
             <div className='flex pt-5'>
               <div className='w-[50vw] flex justify-center'>
-                <img src="src\components\assets\Frequency.png" className=' w-300 h-100'/>
+                <img src={Frequency} className=' w-300 h-100'/>
               </div>
               <div className='w-[50vw] ml-2'>
                 <h1 className='text-lg font-extrabold underline'>Top Chemicals by Frequency</h1>
